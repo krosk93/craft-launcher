@@ -351,6 +351,7 @@ fn spanish_locales_and_plurals_work() {
     assert_eq!(message(Lang::ES, "PhotoCraft updated to 0.5.0"), "PhotoCraft actualizada a 0.5.0");
 }
 
+/// Catalan locales resolve, and its plural rule, month names and backend messages translate.
 #[test]
 fn catalan_locales_and_plurals_work() {
     for tag in ["ca", "ca-ES", "ca_ES.UTF-8", "ca-AD", "ca-FR", "CA_es"] {
